@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>友链</title>
+    <script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js" type="application/javascript"></script>
+    <link href="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css" type="text/css" rel="stylesheet" />
+    <link id="pagestyle" href="./css/argon-dashboard.min.css?v=2.0.0" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/gdt.css">
+    <link rel="stylesheet" href="./css/spinkit.min.css">
+    <link rel="stylesheet" href="./css/gu.css">
+    <link rel="icon" href="./img/favicon.png">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container" style="margin-left: -10px;margin-top: 2px;">
+                <div class="row">
+                    <div class="col-sm">
+                        <i class="fas fa-link link-font"></i>
+                      </div>
+                      <div class="col-sm">
+                        <h3 class="title">友链</h3>
+                      </div>
+                </div>
+            </div>
+        </nav>
+
+            <h3 style="text-align: center;margin: 10px;"><i class="fas fa-grin-squint" style="margin: 10px;"></i>咕谷酱的小伙伴们!!!</h3>
+    </header>
+    <main>  
+      <!-- 卡片 -->
+<div id="loadjson">
+  <div class="sk-circle" style="margin: 20px;">
+    <div class="sk-circle-dot"></div>
+    <div class="sk-circle-dot"></div>
+    <div class="sk-circle-dot"></div>
+    <div class="sk-circle-dot"></div>
+    <div class="sk-circle-dot"></div>
+    <div class="sk-circle-dot"></div>
+    <div class="sk-circle-dot"></div>
+    <div class="sk-circle-dot"></div>
+    <div class="sk-circle-dot"></div>
+    <div class="sk-circle-dot"></div>
+    <div class="sk-circle-dot"></div>
+    <div class="sk-circle-dot"></div>
+  </div>
+</div>
+ <!-- 卡片结束 -->
+
+    </main>
+    <footer style="color: gray;text-align: center;margin-top: 10px;">
+        <p>Copyright ©2022 咕谷酱</p>
+    </footer>
+
+
+
+    <script src="./js/ua-parser.min.js"></script>
+
+    <script>
+    function ardload(){
+      $(function(){    
+          $.ajax({      
+              type:"GET",    
+              url:"./list.json",    
+              dataType: "json",      
+              success: function(data){    
+                  var str="";
+                  var json_len = data.length-1;
+                  var nub=0;
+                  $.each(data,function(i,n){
+                    if(i%2==0){
+                      str+='<div class=\"container\"><div class=\"row\">';
+                    }
+                    str+='<div class="col-sm"><a href="'+n.url+'"><div class="card" ><div class="row">';
+                      str+='<div class="col-3">';
+                        str+='<div class="toux" style="background-image: url(\''+n.image+'\');"></div></div>';
+                        str+='<div class="col-9 gu-txt">';
+                        str+='<h3 class="text-truncate gu-text-in gu-title">'+n.name+'</h3> ';
+                        str+='<p class="text-truncate gu-text-in gu-title-size">'+n.text+'</p>';
+                        str+='</div>';
+                        str+='</div></div></a></div>';
+                    if(i%2!=0){
+                      str+='</div></div>';
+                    }
+                  });
+                  
+                  $("#loadjson").html(str);
+              }    
+          });    
+      });
+    } 
+    ardload();
+    </script>
+</body>
+</html>

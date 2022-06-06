@@ -1,0 +1,195 @@
+@media only screen and (min-width: 1024px){
+    .title{
+        color: #fff;
+        width:max-content;
+        margin-top: 4px;
+        margin-left: -10px;
+    }
+    .link-font{
+        font-size: 40px;
+        color: #fff;
+    }
+    .gu-zhu{
+          height: 400px;
+          overflow-y: scroll;
+        }
+    .toux{
+      background-size: 100px;
+      height: 100px;
+      width: 100px;
+      border-radius:100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 50px;
+    }
+    .card{
+      width: auto;
+      margin: 10px;
+    }
+    .gu-txt{
+      margin-top: 30px;
+      text-align: center;
+    }
+  .gu-text-in{
+    margin-left: -50px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+    .title{
+        color: #fff;
+        width:max-content;
+        margin-top: 4px;
+        margin-left: -10px;
+    }
+    .link-font{
+        font-size: 40px;
+        color: #fff;
+        margin-top: 5px;
+    }
+    .gu-zhu{
+          height: 500px;
+          overflow-y: scroll;
+    }
+    .toux{
+      background-size: 100px;
+      height: 100px;
+      width: 100px;
+      border-radius:100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+    .card{
+      width: auto;
+      margin: 10px;
+    }
+    .gu-txt{
+      margin-top: 30px;
+      text-align: center;
+    }
+  .gu-text-in{
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+    .toux{
+      background-size: 100px;
+      height: 100px;
+      width: 100px;
+      border-radius:100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+    .card{
+      width: 500px;
+      margin: 10px;
+    }
+    .gu-txt{
+      margin-top: 30px;
+      text-align: center;
+    }
+  .gu-text-in{
+    margin-left: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .title{
+        color: #fff;
+        width:max-content
+    }
+    .link-font{
+        display:none;
+    }
+    .gu-zhu{
+          height: 500px;
+          overflow-y: scroll;
+        }
+    .toux{
+    background-size: 100px;
+    height: 100px;
+    width: 100px;
+    border-radius:100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  .card{
+      width: auto;
+      margin: 10px;
+    }
+  .gu-txt{
+    margin-top: 35px;
+    text-align: left;
+  }
+  .gu-text-in{
+    margin-left: -20px;
+  }
+  .gu-title{
+    font-size: 30px;
+    margin-top: -10px;
+    margin-left: 10px;
+  }
+  .gu-title-size{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .gu-txt{
+    margin-top: 40px;
+  }
+  .gu-text-in{
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 356px) {
+    .title{
+        color: #fff;
+        width:max-content
+    }
+    .link-font{
+        display:none;
+    }
+    .gu-zhu{
+          height: 500px;
+          overflow-y: scroll;
+        }
+    .toux{
+      background-size: 50px;
+      height: 50px;
+      width: 50px;
+      border-radius:100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+  }
+  .card{
+      width: auto;
+      margin: 10px;
+    }
+  .gu-txt{
+    margin-top: 10px;
+  }
+  .gu-text-in{
+    margin-left: 20px;
+  }
+  .gu-title-size{
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .gu-title{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+
+/* 文本截断 */
+.text-truncate {
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
