@@ -6,6 +6,7 @@
         margin-left: -10px;
     }
     .link-font{
+        margin-top: 5px;
         font-size: 40px;
         color: #fff;
     }
@@ -44,7 +45,7 @@
     .link-font{
         font-size: 40px;
         color: #fff;
-        margin-top: 5px;
+        margin-top: 10px;
     }
     .gu-zhu{
           height: 500px;
