@@ -69,32 +69,45 @@
     }
   .gu-text-in{
     margin-left: 30px;
-    
   }
 }
 
 @media only screen and (max-width: 992px) {
-  .toux{
-    background-size: 100px;
-    height: 100px;
-    width: 100px;
-    border-radius:100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-  }
-  .card{
-    width: auto;
-    margin: 5px;
-  }
+  .title{
+    color: #fff;
+    width:max-content;
+    margin-top: 4px;
+    margin-left: -10px;
+}
+.link-font{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 5px;
+}
+.gu-zhu{
+      height: 500px;
+      overflow-y: scroll;
+}
+.toux{
+  background-size: 100px;
+  height: 100px;
+  width: 100px;
+  border-radius:100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.card{
+  width: 300px;
+  margin: 10px;
+}
 .gu-txt{
   margin-top: 30px;
   text-align: center;
-
 }
 .gu-text-in{
-  margin-left: 45px;
-  font-size: 20px;
+margin-left: 50px;
+text-align: left;
 }
 }
 
