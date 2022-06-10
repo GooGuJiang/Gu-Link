@@ -22,6 +22,8 @@
       margin-top: 20px;
       margin-bottom: 20px;
       margin-left: 50px;
+      background-repeat:no-repeat;
+      background-color:#cccccc;
     }
     .card{
       width: auto;
@@ -59,6 +61,8 @@
       margin-top: 20px;
       margin-bottom: 20px;
       margin-left: 20px;
+      background-repeat:no-repeat;
+      background-color:#cccccc;
     }
     .card{
       width: auto;
@@ -97,6 +101,8 @@
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
+  background-repeat:no-repeat;
+  background-color:#cccccc;
 }
 .card{
   width: 300px;
@@ -121,6 +127,8 @@ text-align: left;
       margin-top: 20px;
       margin-bottom: 20px;
       margin-left: 20px;
+      background-repeat:no-repeat;
+      background-color:#cccccc;
     }
     .card{
       width: 500px;
@@ -156,6 +164,8 @@ text-align: left;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
+    background-repeat:no-repeat;
+    background-color:#cccccc;
   }
   .card{
       width: auto;
@@ -204,7 +214,10 @@ text-align: left;
       margin-top: 20px;
       margin-bottom: 20px;
       margin-left: 20px;
+      background-repeat:no-repeat;
+      background-color:#cccccc;
   }
+
   .card{
       width: auto;
       margin: 10px;
